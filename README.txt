@@ -1,6 +1,6 @@
-JohnDoe Free Bootstrap landing page for personal and commercial use. Designed with ♥️ and creativity by Devcrud.com 
+Vanon's landing page for personal and commercial use. Designed with ♥️ and creativity by Vanon
 
-Product Page: https://wwww.devcrud.com/
+Product Page: https://raralwavessolutions.co.ke/
 
 Credits:
 
