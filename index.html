@@ -28,7 +28,19 @@
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h1 class="header-title"> Vanon Shati</h1>
                 <h6 class="header-mono" >Designer | Developer</h6>
-                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
+                
+<button onclick="printFile()">Print My CV</button>
+
+<script>
+function printFile() {
+    // the below script'resume/cv.pdf' should be the actual file name of what you want to print
+    var fileUrl = '/resume/cv.pdf';  // Assuming the file "cv" is in the root directory "resume"
+
+    // Open the file in a new window/tab for printing
+    window.open(fileUrl, '_blank');
+}
+</script>
+            
             </div>
         </div>
     </header>
@@ -74,7 +86,8 @@
                 <h5 class="mb-3">A Web Designer and Developer Located In Our Lovely Earth</h5>
                 <br>
                 <p class="mt-20">I thrive on the challenge of translating complex ideas into clear and visually appealing designs. My design process is all about understanding user needs, identifying problems, and crafting effective visual solutions</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+
+               <button class="btn btn-outline-danger"> <i class="icon-down-circled2"></i><a href="resume/cv.pdf" download="resume/cv.pdf">Download PDF</a> </button>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -542,6 +555,11 @@
     footer{
         text-align: center;
         font-size: x-large;
+    }
+    .button{
+        style="height: 27px;" 
+        width="13.5px";
+        border-radius="13.5px"
     }
 
 </style>
